@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('--train_dataset_name',
                         type=str,
                         default='detector')
-    parser.add_argument('--test_model_name',
+    parser.add_argument('--test_dataset_name',
                         type=str,
                         default='detector')
     parser.add_argument('--batch_size',
