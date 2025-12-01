@@ -34,7 +34,7 @@ def parse_args():
     parser.add_argument('--momentum',
                         type=float,
                         default=0.9)
-    parser.add_argument('--num_peochs',
+    parser.add_argument('--num_epochs',
                         type=int,
                         default=3)
     parser.add_argument('--do_train',
